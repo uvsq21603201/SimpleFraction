@@ -1,3 +1,5 @@
 /bin/
+.project
+.classpath
 *.txt
 TD1_prog.md
