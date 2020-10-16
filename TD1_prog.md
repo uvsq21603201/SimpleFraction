@@ -33,7 +33,7 @@ Validez les changements;
     ```bash
     Ajouter le projet dans l index :   git add .
     Puis vérifier l état des fichiers: git status
-    Valider les modifications: git commit
+    Valider les modifications:         git commit
     ```
 1. Ajoutez un constructeur et la méthode `toString` à la classe `Fraction` et modifiez la classe `Main` en conséquence;
 Validez les changements;
@@ -45,26 +45,31 @@ Validez les changements;
 Vous utiliserez le protocole `https` pour cela;
 Vérifiez avec le navigateur;
     ```bash
-    # Commandes pour publier les modifications
+    git remote add origin https://github.com/uvsq21603201/SimpleFraction.git
+    git push origin master
+    
     ```
 1. Sur la forge, ajoutez un fichier de documentation `README.md`.
 Quelle syntaxe est utilisée pour ce fichier ?
-    > Répondre ici
+    > Ce fichier est un fichier sous syntaxe markdown. "#SimpleFraction"
 1. Récupérez localement les modifications effectuées sur la forge.
     ```bash
-    # Répondre ici
+    git pull origin master
     ```
 1. Ajoutez les répertoires et fichiers issus de la compilation aux fichiers ignorés par `git` (fichier `.gitignore`);
     ```bash
-    # Copier ici le contenu de `.gitignore`
+    /bin/
     ```
 1. Retirez les fichiers de configuration de l'IDE du projet;
     ```bash
-    # Répondre ici
+    Les fichiers de configurations de l IDE eclipse à retirer sont : .project
+    et .classpath
     ```
     Ajoutez-les aux fichiers ignorés par `git`.
     ```bash
-    # Copier ici les modifications de `.gitignore`
+    /bin/
+    .project
+    .classpath
     ```
 1. Configurez l'accès par clé publique/clé privée à la forge (cf. [Use the SSH protocol with Bitbucket Cloud](https://confluence.atlassian.com/bitbucket/use-the-ssh-protocol-with-bitbucket-cloud-221449711.html)).
     > Expliquez la procédure de façon synthétique
